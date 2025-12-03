@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Iniciar Sesión</h2>
+
+        <input type="email" id="loginUser" placeholder="Correo">
+
+        <div class="password-box">
+            <input type="password" id="loginPass" placeholder="Contraseña">
+            <span id="toggleEye" class="eye"></span>
+        </div>
+
+        <button id="btnLogin">Entrar</button>
+
+        <p id="recoverLink" style="display:none; margin-top:10px;">
+            <a href="recuperar.html">Recuperar contraseña</a>
+        </p>
+
+        <p id="loginMessage" class="msg"></p>
+
+        <p style="margin-top: 15px;">
+            ¿No tienes cuenta?
+            <a href="registro.html">Regístrate aquí</a>
+        </p>
+    </div>
+
+    <script src="../js/login.js"></script>
+</body>
+</html>
